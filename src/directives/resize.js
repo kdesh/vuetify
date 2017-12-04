@@ -1,6 +1,6 @@
 function inserted (el, binding) {
   let cb = binding.value
-  let debounce = 200
+  let debounce = 100
   let callOnLoad = true
 
   if (typeof binding.value !== 'function') {
